@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-deep-green: #064E3B;
+    --color-emerald-green: #10B981;
+    --color-emerald-hover: #059669;
+    --color-light-mint: #ECFDF5;
+    --color-soft-green: #D1FAE5;
+    --color-dark-text: #1F2937;
+    --color-muted-text: #64748B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1F2937;
+    background-color: #FFFFFF;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom utility colors */
+.bg-deep-green {
+  background-color: #064E3B;
+}
+.bg-emerald-green {
+  background-color: #10B981;
+}
+.bg-emerald-hover:hover {
+  background-color: #059669;
+}
+.bg-light-mint {
+  background-color: #ECFDF5;
+}
+.bg-soft-green {
+  background-color: #D1FAE5;
+}
+
+.text-deep-green {
+  color: #064E3B;
+}
+.text-emerald-green {
+  color: #10B981;
+}
+.text-dark-text {
+  color: #1F2937;
+}
+.text-muted-text {
+  color: #64748B;
+}
+
+.border-soft-green {
+  border-color: #D1FAE5;
+}
+.border-emerald-green {
+  border-color: #10B981;
+}
+.border-deep-green {
+  border-color: #064E3B;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #A7F3D0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}
+
+/* Glassmorphism and card elevation */
+.card-premium {
+  background-color: #FFFFFF;
+  border: 1px solid #D1FAE5;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px -2px rgba(6, 78, 59, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-premium:hover {
+  border-color: #10B981;
+  box-shadow: 0 12px 30px -4px rgba(16, 185, 129, 0.15);
+  transform: translateY(-2px);
+}

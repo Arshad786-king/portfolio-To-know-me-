@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="16" fill="#F8FAFC"/>
+  <!-- Top App Bar -->
+  <rect width="600" height="54" rx="16" fill="#064E3B"/>
+  <circle cx="28" cy="27" r="7" fill="#10B981"/>
+  <text x="46" y="32" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="16">Emergency Route Planning • Visakhapatnam</text>
+  <rect x="440" y="15" width="135" height="24" rx="12" fill="#047857"/>
+  <text x="456" y="31" fill="#D1FAE5" font-family="sans-serif" font-weight="600" font-size="11">Dijkstra &amp; A* OSM</text>
+
+  <!-- Left: Dual Route KPI Cards -->
+  <rect x="24" y="74" width="240" height="124" rx="12" fill="#FFFFFF" stroke="#10B981" stroke-width="2"/>
+  <rect x="38" y="86" width="76" height="20" rx="10" fill="#ECFDF5"/>
+  <text x="46" y="100" fill="#065F46" font-family="sans-serif" font-weight="700" font-size="10">ROUTE 1 (BEST)</text>
+  <text x="38" y="128" fill="#064E3B" font-family="sans-serif" font-weight="800" font-size="20">11.4 km <tspan font-size="13" font-weight="500" fill="#64748B">/ 17 mins</tspan></text>
+  <text x="38" y="148" fill="#64748B" font-family="sans-serif" font-size="11">Via National Highway 16 Arterial</text>
+  <rect x="38" y="160" width="212" height="26" rx="6" fill="#10B981"/>
+  <text x="96" y="177" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="11">Optimal Selected</text>
+
+  <rect x="24" y="212" width="240" height="124" rx="12" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <rect x="38" y="224" width="94" height="20" rx="10" fill="#F5F3FF"/>
+  <text x="46" y="238" fill="#6D28D9" font-family="sans-serif" font-weight="700" font-size="10">ROUTE 2 (ALT)</text>
+  <text x="38" y="266" fill="#1F2937" font-family="sans-serif" font-weight="800" font-size="20">13.8 km <tspan font-size="13" font-weight="500" fill="#64748B">/ 22 mins</tspan></text>
+  <text x="38" y="286" fill="#64748B" font-family="sans-serif" font-size="11">Via Coastal Bypass Corridor</text>
+  <rect x="38" y="298" width="212" height="26" rx="6" fill="#F3F4F6"/>
+  <text x="80" y="315" fill="#4B5563" font-family="sans-serif" font-weight="600" font-size="11">Select Distinct Bypass</text>
+
+  <!-- Right: OSM Map Visualization -->
+  <rect x="284" y="74" width="292" height="264" rx="12" fill="#E2E8F0"/>
+  <!-- Coastline curve -->
+  <path d="M530 74 C500 140, 520 250, 480 338 L576 338 L576 74 Z" fill="#BAE6FD" opacity="0.5"/>
+  <text x="500" y="220" fill="#0284C7" font-family="sans-serif" font-weight="600" font-size="10" transform="rotate(75 500,220)">BAY OF BENGAL</text>
+
+  <!-- Road grid -->
+  <path d="M284 120 H490 M284 200 H500 M284 280 H470 M350 74 V338 M430 74 V338" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Route 1: Optimal (Green) -->
+  <path d="M320 300 L370 240 L370 170 L420 130" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Route 2: Alternative (Purple) -->
+  <path d="M320 300 L310 210 L350 130 L380 95 L420 130" stroke="#8B5CF6" stroke-width="4" stroke-dasharray="6 3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Ambulance Origin Pin -->
+  <circle cx="320" cy="300" r="10" fill="#EF4444" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="290" y="325" fill="#DC2626" font-family="sans-serif" font-weight="700" font-size="10">🚑 Emergency Spot</text>
+
+  <!-- Hospital Destination Pin -->
+  <rect x="410" y="110" width="22" height="22" rx="4" fill="#064E3B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="416" y="126" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="14">H</text>
+  <text x="438" y="125" fill="#064E3B" font-family="sans-serif" font-weight="700" font-size="11">Care Hospital</text>
+
+  <!-- Graph stats overlay -->
+  <rect x="296" y="84" width="160" height="20" rx="4" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1"/>
+  <text x="302" y="98" fill="#064E3B" font-family="sans-serif" font-size="9" font-weight="600">OSM Graph: 12,133 Nodes | 250 Hospitals</text>
+</svg>
+

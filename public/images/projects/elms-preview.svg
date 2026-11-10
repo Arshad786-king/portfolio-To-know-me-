@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="16" fill="#F8FAFC"/>
+  <!-- Top App Bar -->
+  <rect width="600" height="54" rx="16" fill="#064E3B"/>
+  <circle cx="28" cy="27" r="7" fill="#10B981"/>
+  <text x="46" y="32" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="16">ELMS Portal</text>
+  <rect x="420" y="17" width="150" height="22" rx="11" fill="#047857"/>
+  <text x="440" y="32" fill="#ECFDF5" font-family="sans-serif" font-weight="500" font-size="11">Admin | Manager | Emp</text>
+
+  <!-- Sidebar -->
+  <rect x="20" y="74" width="140" height="264" rx="12" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <rect x="34" y="94" width="112" height="28" rx="6" fill="#ECFDF5"/>
+  <text x="46" y="112" fill="#064E3B" font-family="sans-serif" font-weight="600" font-size="12">Dashboard</text>
+  <rect x="34" y="132" width="112" height="24" rx="6" fill="#FFFFFF"/>
+  <text x="46" y="148" fill="#64748B" font-family="sans-serif" font-size="12">Leave Requests</text>
+  <rect x="34" y="166" width="112" height="24" rx="6" fill="#FFFFFF"/>
+  <text x="46" y="182" fill="#64748B" font-family="sans-serif" font-size="12">Approvals (3)</text>
+  <rect x="34" y="200" width="112" height="24" rx="6" fill="#FFFFFF"/>
+  <text x="46" y="216" fill="#64748B" font-family="sans-serif" font-size="12">Employees</text>
+
+  <!-- Stat Cards -->
+  <rect x="180" y="74" width="124" height="68" rx="10" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="194" y="96" fill="#64748B" font-family="sans-serif" font-size="11">Annual Balance</text>
+  <text x="194" y="126" fill="#064E3B" font-family="sans-serif" font-weight="800" font-size="22">18 Days</text>
+
+  <rect x="318" y="74" width="124" height="68" rx="10" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="332" y="96" fill="#64748B" font-family="sans-serif" font-size="11">Approved</text>
+  <text x="332" y="126" fill="#10B981" font-family="sans-serif" font-weight="800" font-size="22">12 Days</text>
+
+  <rect x="456" y="74" width="124" height="68" rx="10" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="470" y="96" fill="#64748B" font-family="sans-serif" font-size="11">Pending Review</text>
+  <text x="470" y="126" fill="#D97706" font-family="sans-serif" font-weight="800" font-size="22">2 Req</text>
+
+  <!-- Table Container -->
+  <rect x="180" y="156" width="400" height="182" rx="12" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="200" y="184" fill="#064E3B" font-family="sans-serif" font-weight="700" font-size="14">Recent Leave Requests</text>
+  
+  <line x1="180" y1="200" x2="580" y2="200" stroke="#F1F5F9" stroke-width="1.5"/>
+
+  <!-- Row 1 -->
+  <text x="200" y="226" fill="#1F2937" font-family="sans-serif" font-weight="600" font-size="12">Rahul Verma</text>
+  <text x="310" y="226" fill="#64748B" font-family="sans-serif" font-size="12">Casual Leave (2d)</text>
+  <rect x="470" y="212" width="76" height="20" rx="10" fill="#ECFDF5"/>
+  <text x="484" y="226" fill="#065F46" font-family="sans-serif" font-weight="600" font-size="10">APPROVED</text>
+
+  <!-- Row 2 -->
+  <text x="200" y="260" fill="#1F2937" font-family="sans-serif" font-weight="600" font-size="12">Priya Sharma</text>
+  <text x="310" y="260" fill="#64748B" font-family="sans-serif" font-size="12">Medical Leave (4d)</text>
+  <rect x="470" y="246" width="76" height="20" rx="10" fill="#FFFBEB"/>
+  <text x="488" y="260" fill="#B45309" font-family="sans-serif" font-weight="600" font-size="10">PENDING</text>
+
+  <!-- Row 3 -->
+  <text x="200" y="294" fill="#1F2937" font-family="sans-serif" font-weight="600" font-size="12">Amit Kumar</text>
+  <text x="310" y="294" fill="#64748B" font-family="sans-serif" font-size="12">Privilege Leave (1d)</text>
+  <rect x="470" y="280" width="76" height="20" rx="10" fill="#ECFDF5"/>
+  <text x="484" y="294" fill="#065F46" font-family="sans-serif" font-weight="600" font-size="10">APPROVED</text>
+
+  <!-- Security Badge -->
+  <rect x="200" y="318" width="180" height="16" rx="4" fill="#ECFDF5"/>
+  <text x="208" y="330" fill="#064E3B" font-family="sans-serif" font-size="9" font-weight="600">🛡️ Protected by JWT &amp; Role-Based Access</text>
+</svg>
+

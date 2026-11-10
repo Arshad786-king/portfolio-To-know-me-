@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="16" fill="#F8FAFC"/>
+  <!-- Top App Bar -->
+  <rect width="600" height="54" rx="16" fill="#064E3B"/>
+  <circle cx="28" cy="27" r="7" fill="#10B981"/>
+  <text x="46" y="32" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="16">RideShare Connect</text>
+  <rect x="430" y="15" width="145" height="24" rx="12" fill="#047857"/>
+  <text x="444" y="31" fill="#D1FAE5" font-family="sans-serif" font-weight="600" font-size="11">● IN DEVELOPMENT</text>
+
+  <!-- Left: Ride Search / Card -->
+  <rect x="24" y="74" width="260" height="264" rx="12" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="42" y="102" fill="#52897aff" font-family="sans-serif" font-weight="700" font-size="15">Find &amp; Match Rides</text>
+  
+  <rect x="42" y="118" width="224" height="34" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="56" y="139" fill="#064E3B" font-family="sans-serif" font-size="12">🟢 From: MVP Colony</text>
+
+  <rect x="42" y="160" width="224" height="34" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="56" y="181" fill="#064E3B" font-family="sans-serif" font-size="12">🔴 To: Gajuwaka Junction</text>
+
+  <!-- Route Card -->
+  <rect x="42" y="206" width="224" height="84" rx="8" fill="#F0FDF4" stroke="#10B981" stroke-width="1.5"/>
+  <text x="54" y="228" fill="#064E3B" font-family="sans-serif" font-weight="700" font-size="13">Arun K. (Swift Dzire)</text>
+  <text x="54" y="246" fill="#64748B" font-family="sans-serif" font-size="11">Seats: 2 Available • 8:30 AM</text>
+  <text x="54" y="272" fill="#064E3B" font-family="sans-serif" font-weight="800" font-size="16">₹145 <tspan font-size="11" font-weight="400" fill="#64748B">per seat</tspan></text>
+  <rect x="180" y="254" width="76" height="26" rx="6" fill="#10B981"/>
+  <text x="194" y="271" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="11">Book Seat</text>
+
+  <text x="42" y="318" fill="#64748B" font-family="sans-serif" font-size="10">⚡ 92% Route corridor overlap</text>
+
+  <!-- Right: Simulated Map Route -->
+  <rect x="304" y="74" width="272" height="264" rx="12" fill="#E2E8F0"/>
+  <!-- Map Grids / Stylized Roads -->
+  <path d="M304 140 H576 M304 220 H576 M380 74 V338 M480 74 V338" stroke="#CBD5E1" stroke-width="2"/>
+  
+  <!-- Active Route Polyline -->
+  <path d="M340 280 C360 220, 420 230, 440 160 S520 120, 540 100" stroke="#10B981" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Passenger Segment -->
+  <path d="M380 226 C410 224, 430 180, 460 145" stroke="#047857" stroke-width="3" stroke-dasharray="4 4" fill="none"/>
+
+  <!-- Start Pin -->
+  <circle cx="340" cy="280" r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="355" y="284" fill="#064E3B" font-family="sans-serif" font-weight="700" font-size="11">Pickup</text>
+
+  <!-- Destination Pin -->
+  <circle cx="540" cy="100" r="8" fill="#DC2626" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="480" y="96" fill="#DC2626" font-family="sans-serif" font-weight="700" font-size="11">Destination</text>
+
+  <!-- Overlay Fare Box -->
+  <rect x="320" y="90" width="120" height="42" rx="8" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.5"/>
+  <text x="328" y="106" fill="#64748B" font-family="sans-serif" font-size="10">Base Fare + km</text>
+  <text x="328" y="122" fill="#064E3B" font-family="sans-serif" font-weight="700" font-size="12">₹30 + (₹9/km)</text>
+
+  <!-- Bottom Notice Badge -->
+  <rect x="320" y="304" width="240" height="22" rx="6" fill="#064E3B"/>
+  <text x="330" y="318" fill="#D1FAE5" font-family="sans-serif" font-size="10" font-weight="600">Simulated Route &amp; Matching Engine Preview</text>
+</svg>
